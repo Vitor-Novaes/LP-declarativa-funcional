@@ -1,0 +1,9 @@
+% PARADGMA DECLARATIVO : PROLOG
+% União de duas listas
+
+lista([],L,L).
+
+lista([X|L1],LU,[X|L2]) :-
+    lista(L1,LU,L2).
+
+

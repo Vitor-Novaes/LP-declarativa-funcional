@@ -1,0 +1,13 @@
+%Structs
+cidade(fortaleza, pais(brasil)).
+cidade(novayork, pais(estadosunidos)).
+cidade(berlim, pais(alemanha)).
+
+%pesquisa:
+% -> cidade(Nome, pais(alemanha)) (PESQUISANDO CIDADES DA ALEMANHA))
+% -> cidade(Nome, Pais) (Pesquisando todas as cidades e pais do banco)
+% -> cidade(Nome, pais(_)) (Pesquisando todas as cidades do banco)
+% -> cidade(fotaleza, pais(X)) (Pesquisando o pais X, pertencente a
+% Fortal)
+
+
